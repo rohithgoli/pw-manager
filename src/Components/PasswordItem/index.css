@@ -1,0 +1,116 @@
+.bg-color-0 {
+  background-color: #0b69ff;
+}
+
+.bg-color-1 {
+  background-color: #7683cb;
+}
+
+.bg-color-2 {
+  background-color: #f59e0b;
+}
+
+.bg-color-3 {
+  background-color: #10b981;
+}
+
+.bg-color-4 {
+  background-color: #f97316;
+}
+
+.bg-color-5 {
+  background-color: #14b8a6;
+}
+
+.bg-color-6 {
+  background-color: #b91c1c;
+}
+
+.bg-color-7 {
+  background-color: #0ea5e9;
+}
+
+.pw-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  border: 1px solid #7386cb;
+  border-radius: 6px;
+  max-width: 100%;
+  width: 100%;
+  color: #ffffff;
+  padding: 8px 4px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 116px;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .pw-item-container {
+    max-width: 300px;
+    width: 300px;
+  }
+}
+
+.pw-item-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-container {
+  height: 46px;
+  width: 46px;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.website-icon {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.pw-details-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.login-website {
+  font-size: 24px;
+  margin: 4px;
+}
+
+.login-details {
+  font-size: 18px;
+  margin: 4px;
+}
+
+.stars-img {
+  width: 75%;
+  height: 20px;
+  margin: 4px;
+}
+
+.delete-btn {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete-img {
+  width: 30px;
+  height: 30px;
+}
